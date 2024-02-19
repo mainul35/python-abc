@@ -1,8 +1,7 @@
 def reverse_a_string_sol1(input):
-    # global len
-    len = len(input)
+    length = len(input)
     output = ''
-    for i in range(len - 1, -1, -1):
+    for i in range(length - 1, -1, -1):
         output += input[i]
     return output
 
@@ -11,4 +10,4 @@ def reverse_a_string_sol2(input):
 
 input = input()
 print(reverse_a_string_sol1(input))
-print(reverse_a_string_sol2(input))
+# print(reverse_a_string_sol2(input))
